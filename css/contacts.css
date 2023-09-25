@@ -85,10 +85,10 @@ body, html {
     background-color: transparent;
     border-radius: 50%;
     display: flex;
-    box-shadow: 0 0 25px #800080; /* Increase the glow */    
+    box-shadow: 0 0 30px #800080; /* Increase the glow */    
     animation: glow 2s ease-in-out infinite alternate;
     position: sticky;
-    margin: 120px;
+    margin: 18px;
 }
 
 .circular-header img {

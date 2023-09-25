@@ -88,7 +88,7 @@ body, html {
     box-shadow: 0 0 25px #800080; /* Increase the glow */    
     animation: glow 2s ease-in-out infinite alternate;
     position: sticky;
-    margin: 240px;
+    margin: 130px;
 }
 
 .circular-header img {
