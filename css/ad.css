@@ -1,0 +1,401 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: black;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    /* Adjust the background color as needed */
+}
+
+.image {
+    background-image: url("https://cdn.discordapp.com/attachments/1039308604148293682/1155561482529013790/NOVA_poster_big_ver_2.png");
+    filter: blur(6px);
+    height: 100vh;
+    /* Adjust the height as needed */
+    width: 100%;
+    /* Adjust the width as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    /* Places the image behind other content */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.text {
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black partially transparent background */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    opacity: 2;
+    border-radius: 25px;
+    box-shadow: 0 0 30px #800080;
+    /* Increase the glow */
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+        /* Increase the glow */
+    }
+
+    to {
+        box-shadow: 0 0 30px #800080;
+        /* Increase the glow */
+    }
+}
+
+.discord-link {
+    color: #ffffff;
+    text-decoration: none;
+    /* Add underline to the link text */
+    font-size: 20px;
+}
+
+.discord-link:hover {
+    color: #E1D9D1;
+    /* Change link color on hover */
+    text-decoration: none;
+    /* Remove underline on hover (optional) */
+}
+
+.icon-link {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    color: white;
+    /* Set the text color to white */
+    text-decoration: none;
+    /* Remove the underline */
+}
+
+.link-text {
+    margin-left: 1px;
+    /* Add some spacing between the icon and text */
+    margin-bottom: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.icon {
+    width: 100px;
+    /* Adjust the icon size as needed */
+}
+
+.circular-header {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 0 0 30px #800080;
+    /* Increase the glow */
+    animation: glow 2s ease-in-out infinite alternate;
+    position: sticky;
+    margin: 120px;
+}
+
+.circular-header img {
+    max-width: 200px;
+    /* Adjust the image size as needed */
+    height: auto;
+    border-radius: 50%;
+    /* Make the image round */
+    border: none;
+    /* Add a white border around the image */
+}
+
+.circular-header h1 {
+    color: white;
+    font-size: 24px;
+    margin: 10px 0;
+    /* Adjust the margin as needed */
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+        /* Increase the glow */
+    }
+
+    to {
+        box-shadow: 0 0 30px #800080;
+        /* Increase the glow */
+    }
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border: 3px solid #ffffff;
+    position: fixed;
+    border-top-left-radius: 25px 25px;
+    border-top-right-radius: 25px 25px;
+    bottom: -1.9;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 30px #800080;
+    /* Increase the glow */
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+        /* Increase the glow */
+    }
+
+    to {
+        box-shadow: 0 0 30px #800080;
+        /* Increase the glow */
+    }
+}
+
+footer div {
+    margin-bottom: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #FF5733;
+}
+
+.ad-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    margin: 2px 0;
+    border-radius: 25px;
+    resize: both;
+    overflow: auto;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.custom-button {
+    background-color: #7289da;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: none;
+    /* Remove button border */
+    padding: 10px 20px;
+    /* Adjust button padding */
+    border-radius: 5px;
+    /* Add rounded corners */
+    cursor: pointer;
+    /* Change cursor on hover */
+    font-size: 16px;
+    /* Adjust button text size */
+}
+
+/* Style the button on hover */
+.custom-button:hover {
+    background-color: #566388;
+    /* Change background color on hover */
+}
+
+.ad-container {
+    background-color: none;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 25px;
+}
+
+.ad-image {
+    max-width: 50%;
+    height: auto;
+}
+
+#bod-xyz-embed {
+    user-select: none
+}
+
+#bod-xyz-embed text {
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#bod-xyz-embed .title {
+    font-size: 18px;
+    font-weight: bold;
+    fill: #FFF
+}
+
+#bod-xyz-embed .block {
+    fill: #6574CD
+}
+
+#bod-xyz-embed .stat {
+    font-size: 14px;
+    fill: #3D4852
+}
+
+#bod-xyz-embed .stat.in-box {
+    font-size: 14px;
+    fill: #FFF
+}
+
+#bod-xyz-embed .link {
+    font-size: 14px;
+    font-weight: bold;
+    fill: #6574CD
+}
+
+#bod-xyz-embed path {
+    fill: #FFF
+}
+
+#bod-xyz-embed.dark .block {
+    fill: #454E56
+}
+
+#bod-xyz-embed.dark .stat {
+    fill: #F8FAFC
+}
+
+#bod-xyz-embed.dark .link {
+    fill: #7886D7
+}
+
+#bod-xyz-embed.dark path {
+    fill: #F8FAFC
+}
+
+.discord-embed {
+    background-color: #000000;
+    border: 1px solid #ff0000;
+    border-radius: 25px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.discord-embed-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.discord-embed-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.discord-embed-author-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7289da;
+    text-decoration: none;
+}
+
+.discord-embed-description {
+    font-size: 14px;
+    color: #b9bbbe;
+    margin-top: 10px;
+}
+
+.discord-embed-link {
+    color: #7289da;
+    text-decoration: none;
+}
+
+.discord-embed-fields {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.discord-embed-field {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.discord-embed-field-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.discord-embed-field-value {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/*other*/
+
+.discord-link-embed {
+    background-color: #000000;
+    border: 1px solid #ff0000;
+    border-radius: 25px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.embed-discord-link {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.discord-link-thumbnail {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.discord-link-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.discord-link-content {
+    padding-left: 10px;
+}
+
+.discord-link-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7289da;
+}
+
+.discord-link-description {
+    font-size: 14px;
+    color: #b9bbbe;
+    margin-top: 5px;
+}
