@@ -13,7 +13,7 @@ html {
 
 .image {
     background-image: url("https://cdn.discordapp.com/attachments/1039308604148293682/1155561482529013790/NOVA_poster_big_ver_2.png");
-    filter: blur(6px);
+    filter: blur(5px);
     height: 100vh;
     /* Adjust the height as needed */
     width: 100%;
@@ -52,7 +52,7 @@ html {
 
 @keyframes glow {
     from {
-        box-shadow: 0 0 30px #FFD700;
+        box-shadow: 0 0 30px #0000ff;
         /* Increase the glow */
     }
 
@@ -101,8 +101,8 @@ html {
 }
 
 .circular-header {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     background-color: transparent;
     border-radius: 50%;
     display: flex;
@@ -110,11 +110,11 @@ html {
     /* Increase the glow */
     animation: glow 2s ease-in-out infinite alternate;
     position: sticky;
-    margin: 130px;
+    margin: 80px;
 }
 
 .circular-header img {
-    max-width: 150px;
+    max-width: 200px;
     /* Adjust the image size as needed */
     height: auto;
     border-radius: 50%;
@@ -132,7 +132,7 @@ html {
 
 @keyframes glow {
     from {
-        box-shadow: 0 0 30px #FFD700;
+        box-shadow: 0 0 30px #0000ff;
         /* Increase the glow */
     }
 
@@ -161,7 +161,7 @@ footer {
 
 @keyframes glow {
     from {
-        box-shadow: 0 0 30px #FFD700;
+        box-shadow: 0 0 30px #0000ff;
         /* Increase the glow */
     }
 
